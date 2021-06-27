@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style:none;
+	text-decoration: none;
+	font-family: 'Cormorant Garamond', sans-serif;
+}
+body{
+	width: 100%;
+}
+
+/* HEADING */
+
+.shoreditch{
+/*	text-decoration: underline; */
+	font-family: 'Cormorant Garamond', sans-serif;
+}
+
+.header {
+	width: 95%;
+	height: 100px;
+	background-color: black;
+	margin: 15px auto;
+	color: #fedde2;
+	font-family: 'Cormorant Garamond', sans-serif;
+	text-align: center;
+	border-left: 5px #fedde2 solid;
+	border-right: 5px #fedde2 solid;
+	border-top: 5px #fedde2 solid;
+	border-bottom: 5px #fedde2 solid; 
+	background-color: black;
+}
+
+
+/* INTRODUCTION TEXT */
+
+.intro {
+	width: 90%;
+	height : 30%;;
+	margin: 35px auto;
+	background-color: white;
+	text-align: left;
+	color: black;
+}
+
+/* ORGINIZING THE OUTLOOK OF THE 4 BOXES */
+
+.container {
+	position: relative;
+	width: 80%;
+	margin: 35px auto;
+	height: 850px;
+	max-width: 95%
+
+}
+
+.box {
+	position: relative;
+	height:700px;
+	background-color: white;
+	float: left;
+	margin: 30px;
+	background-color:white;
+}
+
+/* PICTURES INSIDE OF THE BOX; Their logos are taken as a screenshot from their websites */
+
+.box-picture1, .box-picture2, .box-picture3, .box-picture4{
+	position: relative;
+	height: 300px;
+	width: 230px;
+	background-size: 100% auto;
+	background-repeat:no-repeat;
+	background-position: center;
+	margin: 20px auto;
+	padding: 5px;
+	background-color: white;
+}
+
+.box-picture1{
+	background-image: url(media/bridge.png);
+}
+
+.box-picture2{
+	background-image: url(media/ozone.png);
+}
+
+.box-picture3{
+	background-image: url(media/origin.png);
+}
+
+.box-picture4{
+	background-image: url(media/shoreditchgrind.png);
+}
+
+
+/* TEXT INSIDE OF THE BOXES */
+
+.box-text1, .box-text2, .box-text3,.box-text4{
+	position: relative;
+	height: 300px;
+	width: 230px;
+	text-align: justify;
+	border-top: 2px black solid;
+	background-color: white;
+}
+
+.caffeename24 {
+	font-family: 'Cormorant Garamond', sans-serif;
+	text-align: center;
+	color:black;
+	background-color: #fedde2;
+	font-weight: bold;
+}
+
+.caffeename13{
+	font-family: 'Cormorant Garamond', sans-serif;
+	text-align: center;
+	color:white;
+	background-color: black;
+	font-weight: bold;
+}
+
+.attribute{
+	text-align: center;
+	color:black;
+	font-weight: bold;
+}
+
+
+.rightforu{
+	color:black;
+	font-weight: bold;
+	text-align: center;
+}
